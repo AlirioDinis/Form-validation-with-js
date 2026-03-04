@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form id="formulario" novalidate>
+        <label>Email:
+          <input type="email" id="email" required>
+          <span class="erro" id="erroEmail"></span>
+        </label>
+      
+        <label>País:
+          <input type="text" id="pais" required>
+          <span class="erro" id="erroPais"></span>
+        </label>
+      
+        <label>CEP:
+          <input type="text" id="cep" required pattern="\d{5}-?\d{3}">
+          <span class="erro" id="erroCep"></span>
+        </label>
+      
+        <label>Senha:
+          <input type="password" id="senha" required minlength="6">
+          <span class="erro" id="erroSenha"></span>
+        </label>
+      
+        <label>Confirmar Senha:
+          <input type="password" id="confirmaSenha" required>
+          <span class="erro" id="erroConfirma"></span>
+        </label>
+      
+        <button type="submit">Enviar</button>
+      </form>
+      
+</body>
+</html>
