@@ -1,0 +1,30 @@
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input.invalido {
+    border-color: red;
+    background-color: #ffe5e5;
+  }
+  
+  .erro {
+    color: red;
+    font-size: 0.9em;
+  }
+  
